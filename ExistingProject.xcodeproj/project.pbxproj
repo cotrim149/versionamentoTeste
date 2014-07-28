@@ -89,6 +89,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F1B6EE41986D2BD00D23899 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F5630AF1986C5D0001B1E93 /* VCLMasterViewController.h */,
+				9F5630B01986C5D0001B1E93 /* VCLMasterViewController.m */,
+				9F5630B21986C5D0001B1E93 /* VCLDetailViewController.h */,
+				9F5630B31986C5D0001B1E93 /* VCLDetailViewController.m */,
+			);
+			name = viewControllers;
+			sourceTree = "<group>";
+		};
+		9F1B6EE51986D32B00D23899 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F5630A91986C5D0001B1E93 /* Main.storyboard */,
+				9F5630B51986C5D0001B1E93 /* Images.xcassets */,
+				9F5630AC1986C5D0001B1E93 /* ExistingProject.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		9F5630891986C5D0001B1E93 = {
 			isa = PBXGroup;
 			children = (
@@ -125,13 +146,8 @@
 			children = (
 				9F5630A61986C5D0001B1E93 /* VCLAppDelegate.h */,
 				9F5630A71986C5D0001B1E93 /* VCLAppDelegate.m */,
-				9F5630A91986C5D0001B1E93 /* Main.storyboard */,
-				9F5630AF1986C5D0001B1E93 /* VCLMasterViewController.h */,
-				9F5630B01986C5D0001B1E93 /* VCLMasterViewController.m */,
-				9F5630B21986C5D0001B1E93 /* VCLDetailViewController.h */,
-				9F5630B31986C5D0001B1E93 /* VCLDetailViewController.m */,
-				9F5630B51986C5D0001B1E93 /* Images.xcassets */,
-				9F5630AC1986C5D0001B1E93 /* ExistingProject.xcdatamodeld */,
+				9F1B6EE51986D32B00D23899 /* Resources */,
+				9F1B6EE41986D2BD00D23899 /* viewControllers */,
 				9F56309E1986C5D0001B1E93 /* Supporting Files */,
 			);
 			path = ExistingProject;
@@ -473,6 +489,7 @@
 				9F5630CF1986C5D1001B1E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F5630D01986C5D1001B1E93 /* Build configuration list for PBXNativeTarget "ExistingProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +498,7 @@
 				9F5630D21986C5D1001B1E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
